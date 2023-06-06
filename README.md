@@ -1,1 +1,1 @@
-# responsive_tablet
+# responsive

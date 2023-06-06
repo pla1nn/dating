@@ -1,1 +1,1 @@
-# responsive_mobile
+# responsive

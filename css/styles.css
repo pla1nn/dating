@@ -1,3 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -22,4 +31,150 @@ h5,
 h6,
 p {
     margin: 0;
+}
+
+
+/* CONTAINER */
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid #f00;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 944px;
+        
+    }
+}
+
+
+
+/* HEADER */
+
+
+
+.header {
+    padding-top: 19px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    margin-bottom: 22px;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.header-name {
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    margin-top: 123px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-link {
+    padding: 10px;
+    margin-right: 9px;
+    font-size: 13.9859px;
+    line-height: 17px;
+    
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.nav-link:last-child {
+    background-color: rgba(26, 25, 21, 0.0001);
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+
+
+/* HERO */
+
+
+
+.hero-section {
+    background-color: #000;
+}
+
+.hero-title {
+    margin-bottom: 12px;
+    font-size: 52px;
+    line-height: 63px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.hero-text {
+    font-family: 'Roboto';
+    margin-bottom: 19px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #FFFFFF;
+    background-color: #FF4E50;
+}
+
+
+
+/* PARTNERS */
+
+
+
+.partners-section {
+}
+.partners-title {
+}
+.partners-list {
+}
+.partners-list-item {
+}
+.partners-list-icon {
+}
+.partners-list-title {
+}
+.partners-list-text {
+}
+.partners-button {
 }

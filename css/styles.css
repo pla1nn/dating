@@ -1,35 +1,3 @@
-body {
-    font-family: 'Montserrat';
-    font-weight: 700;
-}
-
-
-/* CONTAINER */
-
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    outline: 1px solid #f00;
-}
-
-@media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .container {
-        width: 944px;
-        
-    }
-}
-
-
 
 /* HEADER */
 
@@ -116,15 +84,7 @@ body {
     color: #FFFFFF;
 }
 
-.hero-button {
-    width: 280px;
-    height: 40px;
-    font-size: 14px;
-    line-height: 17px;
-    
-    color: #FFFFFF;
-    background-color: #FF4E50;
-}
+
 
 
 
@@ -132,8 +92,7 @@ body {
 
 
 
-.partners-section {
-}
+
 .partners-title {
 }
 .partners-list {

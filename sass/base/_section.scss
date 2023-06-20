@@ -1,0 +1,15 @@
+.partners-section {
+    padding-top: 67px;
+    padding-bottom: 56px;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 71px;
+        padding-bottom: 39px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 69px;
+        padding-bottom: 72px;
+    }
+}

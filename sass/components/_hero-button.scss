@@ -1,0 +1,16 @@
+.hero-button {
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+    border-radius: 50%;
+    
+    color: #FFFFFF;
+    background-color: $button-color;
+
+    @media screen and (min-width: 768px) {
+        width: 228px;
+        height: 42px;
+    }
+}

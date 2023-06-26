@@ -1,0 +1,26 @@
+.hero-section {
+    background-color: #000;
+}
+
+.hero-title {
+    margin-bottom: 12px;
+    font-size: 52px;
+    line-height: 63px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.hero-text {
+    font-family: 'Roboto';
+    margin-bottom: 19px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+    text-align: center;
+    color: #FFFFFF;
+}

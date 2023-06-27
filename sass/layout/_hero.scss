@@ -1,26 +1,44 @@
 .hero-section {
-    background-color: #000;
+    padding-bottom: 138px;
+    padding-top: 214px;
+    background-image: url(../friends.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.hero-section .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-title {
-    margin-bottom: 12px;
-    font-size: 52px;
-    line-height: 63px;
     display: flex;
-    align-items: flex-end;
+    width: 306.026px;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+
+    color: #FFF;
     text-align: center;
+    font-size: 30.041px;
     text-transform: uppercase;
-    
-    color: #FFFFFF;
 }
 
 .hero-text {
-    font-family: 'Roboto';
-    margin-bottom: 19px;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 28px;
-    
+    margin-bottom: 17px;
+    margin-top: 12px;
+    display: flex;
+    width: 247px;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+
+    color: #FFF;
     text-align: center;
-    color: #FFFFFF;
+    font-size: 18.025px;
+    font-family: Roboto;
+    font-weight: 300;
 }
